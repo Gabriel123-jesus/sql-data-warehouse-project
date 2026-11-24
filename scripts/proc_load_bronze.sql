@@ -103,7 +103,7 @@ BEGIN
         TRUNCATE TABLE bronze.erp_cust_az12;
         PRINT '>> Inserting Data Into: bronze.erp_cust_az12';
         BULK INSERT bronze.erp_cust_az12
-        FROM 'C:\sql\dwh_project\01_datasets\source_erp\cust_az12.csv'
+        FROM 'C:\Users\dongr\Downloads\sql-data-warehouse-project\sql-data-warehouse-project\datasets\source_erp\CUST_AZ12.csv'
         WITH (
             FIRSTROW = 2,
             FIELDTERMINATOR = ',',
